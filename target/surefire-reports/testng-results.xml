@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sat_Jan_29_06_45_46_GMT_2022.jpg><img src=Sat_Jan_29_06_45_46_GMT_2022.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-29T06:45:46Z" name="Data Driven Basics" finished-at="2022-01-29T06:46:11Z" duration-ms="25542">
+    <groups>
+    </groups>
+    <test started-at="2022-01-29T06:45:46Z" name="Bank Manager Login Test" finished-at="2022-01-29T06:45:50Z" duration-ms="4193">
+      <class name="com.w2a.testcases.BankManagerLoginTest">
+        <test-method signature="bankManagerLoginTest()[pri:0, instance:com.w2a.testcases.BankManagerLoginTest@4351c8c3]" started-at="2022-01-29T06:45:46Z" name="bankManagerLoginTest" finished-at="2022-01-29T06:45:50Z" duration-ms="4174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verification failure : expected [abc] but found [xyz]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sat_Jan_29_06_45_46_GMT_2022.jpg><img src=Sat_Jan_29_06_45_46_GMT_2022.jpg height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bankManagerLoginTest -->
+      </class> <!-- com.w2a.testcases.BankManagerLoginTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test started-at="2022-01-29T06:45:50Z" name="Add Customer Test" finished-at="2022-01-29T06:46:08Z" duration-ms="17628">
+      <class name="com.w2a.testcases.AddCustomerTest">
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@78fbff54]" started-at="2022-01-29T06:45:50Z" name="addCustomerTest" data-provider="dp" finished-at="2022-01-29T06:45:55Z" duration-ms="4693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@78fbff54]" started-at="2022-01-29T06:45:55Z" name="addCustomerTest" data-provider="dp" finished-at="2022-01-29T06:45:59Z" duration-ms="4348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Rahul}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@78fbff54]" started-at="2022-01-29T06:45:59Z" name="addCustomerTest" data-provider="dp" finished-at="2022-01-29T06:46:04Z" duration-ms="4276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+        <test-method signature="addCustomerTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.AddCustomerTest@78fbff54]" started-at="2022-01-29T06:46:04Z" name="addCustomerTest" data-provider="dp" finished-at="2022-01-29T06:46:08Z" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCustomerTest -->
+      </class> <!-- com.w2a.testcases.AddCustomerTest -->
+    </test> <!-- Add Customer Test -->
+    <test started-at="2022-01-29T06:46:08Z" name="Open Account Test" finished-at="2022-01-29T06:46:11Z" duration-ms="3178">
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <test-method signature="openAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.OpenAccountTest@1021f6c9]" started-at="2022-01-29T06:46:08Z" name="openAccountTest" data-provider="dp" finished-at="2022-01-29T06:46:11Z" duration-ms="3177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currency=Rupee, customer=Raman Arora}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAccountTest -->
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Test -->
+    <test started-at="2022-01-29T06:46:11Z" name="Open Account Tests" finished-at="2022-01-29T06:46:11Z" duration-ms="0">
+      <class name="com.w2a.testcases.OpenAccountTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.w2a.testcases.OpenAccountTest@1021f6c9]" started-at="2022-01-29T06:45:40Z" name="setUp" finished-at="2022-01-29T06:45:46Z" duration-ms="5773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.w2a.testcases.OpenAccountTest@1021f6c9]" started-at="2022-01-29T06:46:11Z" name="tearDown" finished-at="2022-01-29T06:46:12Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.OpenAccountTest -->
+    </test> <!-- Open Account Tests -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
