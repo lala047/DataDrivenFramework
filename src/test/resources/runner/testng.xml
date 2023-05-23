@@ -18,20 +18,20 @@
 	
 	<test name="Add Customer Test">
 		<classes>
-			<class name="com.w2a.testcases.AddCustomerTest" />
+		<class name="com.w2a.testcases.AddCustomerTest" />
 		</classes>
 	</test> <!-- Test -->
 	
 		
 	<test name="Open Account Test">
 		<classes>
-			<class name="com.w2a.testcases.OpenAccountTest" />
+		<class name="com.w2a.testcases.OpenAccountTest" />
 		</classes>
 	
 		</test> <!-- Test -->
 		<test name="Open Account Tests">
 		<classes>
-			<!--<class name="com.w2a.testcases.OpenAccountTest" />-->
+		<!--	<class name="com.w2a.testcases.OpenAccountTest" />-->
 		</classes>
 	
 		</test> <!-- Test -->

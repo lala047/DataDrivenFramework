@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Add Customer Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/1</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jan 27 23:24:31 GMT 2022</td>
+<td>Started on:</td><td>Tue Aug 16 01:28:13 BST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13889 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (922 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,43 +67,20 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Raman}</td>
-<td></td>
-<td>4</td>
-<td>com.w2a.testcases.AddCustomerTest@662f5666</td></tr>
-<tr>
-<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=Y, firstname=Ishita}</td>
-<td></td>
-<td>4</td>
-<td>com.w2a.testcases.AddCustomerTest@662f5666</td></tr>
-<tr>
-<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, runmode=Y, firstname=Rohit}</td>
-<td></td>
-<td>4</td>
-<td>com.w2a.testcases.AddCustomerTest@662f5666</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, runmode=N, firstname=Rahul}</td>
-<td><div><pre>org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
-	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:21)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace263382013", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace263382013'><pre>org.testng.SkipException: Skipping the test case as the Run mode for data set is NO
-	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:21)
+<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, firstname=Raman}</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1595176476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1595176476'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -131,7 +108,112 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.w2a.testcases.AddCustomerTest@662f5666</td></tr>
+<td>com.w2a.testcases.AddCustomerTest@6f8f9349</td></tr>
+<tr>
+<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, firstname=Rahul}</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace931482420", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace931482420'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.w2a.testcases.AddCustomerTest@6f8f9349</td></tr>
+<tr>
+<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Arora, firstname=Ishita}</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace875768717", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace875768717'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.w2a.testcases.AddCustomerTest@6f8f9349</td></tr>
+<tr>
+<td title='com.w2a.testcases.AddCustomerTest.addCustomerTest()'><b>addCustomerTest</b><br>Test class: com.w2a.testcases.AddCustomerTest<br>Parameters: {alerttext=Customer added successfully, postcode=A234wd, lastname=Sehgal, firstname=Rohit}</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871362568", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871362568'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.equals(Object)&quot; because the return value of &quot;java.util.Hashtable.get(Object)&quot; is null
+	at com.w2a.testcases.AddCustomerTest.addCustomerTest(AddCustomerTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.w2a.testcases.AddCustomerTest@6f8f9349</td></tr>
 </table><p>
 </body>
 </html>
